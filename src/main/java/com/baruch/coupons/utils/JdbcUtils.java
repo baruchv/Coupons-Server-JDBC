@@ -19,7 +19,7 @@ public class JdbcUtils {
 	public static Connection getConnection() throws SQLException {
 
 		Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/projectdb2?serverTimezone=UTC&useSSL=false", "root",
-				"Armad1l0");
+				"1234");
 
 		return connection;
 	}
